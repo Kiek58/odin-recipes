@@ -2,22 +2,39 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-h1 {
+.header {
     color: white;
-    background-color:rgb(97, 119, 25);
-    font-size: xxx-large;
-    font-style: italic;
+    border: 5px solid green;
+    border-radius: 25px;
+
+    background-color:rgb(228, 237, 201);
+    font-size: xx-large;
+    font-style: italic;  
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
   }
-ul {
+  
+  .ul {
     list-style-type: square;
+    color: brown;
+    font-size: larger;
 }
 
 .list {
     font-size: larger;
     font-family: "Brush Script MT", 'Lucida Sans',sans-serif;
-   
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border-color: blue;
+    border-width: 5px;
+    /*color:aqua;*/
 }
+    
 .href {
-    color: yellowgreen;
+    color: aqua;
+   
+    
 }
